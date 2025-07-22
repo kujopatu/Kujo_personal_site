@@ -24,6 +24,10 @@ export default function App() {
     { title: "Building with Tailwind", summary: "Tips for efficient design." },
     { title: "React Contact Forms", summary: "Handling forms and EmailJS." },
     { title: "Warehouse Management Tools", summary: "Modern logistics tech." }
+    { title: "Inventory Tips", summary: "How to keep stock organized." },
+    { title: "Top 5 React Hooks", summary: "Essential hooks in modern React." },
+    { title: "Shipping Solutions", summary: "Deliver smarter and faster." },
+    { title: "AI in Logistics", summary: "How AI is transforming supply chains." }
   ];
 
   const gallery = ["/gallery1.jpg", "/gallery2.jpg", "/gallery3.jpg"];
@@ -77,6 +81,9 @@ export default function App() {
             <li>General Supplies & Distribution</li>
             <li>Logistics & Warehouse Management</li>
             <li>Web Development</li>
+            <li>IT Consulting</li>
+            <li>Product Distribution</li>
+            <li>Data Analytics & Dashboards</li>
           </ul>
         </section>
 
