@@ -21,14 +21,15 @@ export default function App() {
     "The web solutions delivered exceeded expectations!"
   ];
   const blogs = [
-    { title: "Building with Tailwind", summary: "Tips for efficient design." },
-    { title: "React Contact Forms", summary: "Handling forms and EmailJS." },
-    { title: "Warehouse Management Tools", summary: "Modern logistics tech." }
-    { title: "Inventory Tips", summary: "How to keep stock organized." },
-    { title: "Top 5 React Hooks", summary: "Essential hooks in modern React." },
-    { title: "Shipping Solutions", summary: "Deliver smarter and faster." },
-    { title: "AI in Logistics", summary: "How AI is transforming supply chains." }
-  ];
+  { title: "Building with Tailwind", summary: "Tips for efficient design." },
+  { title: "React Contact Forms", summary: "Handling forms and EmailJS." },
+  { title: "Warehouse Management Tools", summary: "Modern logistics tech." },
+  { title: "Inventory Tips", summary: "How to keep stock organized." },
+  { title: "Top 5 React Hooks", summary: "Essential hooks in modern React." },
+  { title: "Shipping Solutions", summary: "Deliver smarter and faster." },
+  { title: "AI in Logistics", summary: "How AI is transforming supply chains." }
+];
+
 
   const gallery = ["/gallery1.jpg", "/gallery2.jpg", "/gallery3.jpg"];
   const filtered = filter === "All" ? projects : projects.filter(p => p.category === filter);
@@ -78,13 +79,14 @@ export default function App() {
         <section className="mb-10">
           <h2 className="text-2xl font-semibold mb-2">Services</h2>
           <ul className="list-disc pl-5">
-            <li>General Supplies & Distribution</li>
-            <li>Logistics & Warehouse Management</li>
-            <li>Web Development</li>
-            <li>IT Consulting</li>
-            <li>Product Distribution</li>
-            <li>Data Analytics & Dashboards</li>
-          </ul>
+  <li>General Supplies & Distribution</li>
+  <li>Logistics & Warehouse Management</li>
+  <li>Web Development</li>
+  <li>IT Consulting</li>
+  <li>Product Distribution</li>
+  <li>Data Analytics & Dashboards</li>
+</ul>
+
         </section>
 
         {/* Projects */}
