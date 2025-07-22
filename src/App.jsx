@@ -52,7 +52,7 @@ export default function App() {
         <h2 className="text-2xl font-semibold mb-3">Projects</h2>
         <div className="flex gap-2 mb-4">
           {["All", "Logistics", "Web"].map(cat => (
-            <button key={cat} onClick={() => setFilter(cat)} className={\`px-3 py-1 border rounded \${filter === cat ? "bg-orange-600 text-white" : "text-orange-600"}\`}>{cat}</button>
+            <button key={cat} onClick={() => setFilter(cat)} className={/`px-3 py-1 border rounded /${filter === cat ? "bg-orange-600 text-white" : "text-orange-600"}/`}>{cat}</button>
           ))}
         </div>
         <ul className="space-y-2">
